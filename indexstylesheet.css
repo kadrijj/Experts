@@ -35,11 +35,10 @@ body{
 }
 
 img { 
-  width:80%;
-  height:auto;
-  display: block;
-  margin: auto;
-  float: initial;
+     width: 80%;
+     height: auto;
+     top: 50%;     
+     left: 50%;
 }
 .index-container 
 {
