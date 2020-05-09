@@ -142,3 +142,21 @@ footer a:hover {
 footer p {
   font-size: 12px;
 }
+.contact {
+  border-radius: 20px;
+  background-color: #0f0e0ea6;
+  padding: 20px;
+  background:url('../course-images/banner.jpg');
+  display: flex;
+  background-position: 20%;
+  
+}
+input[type=text], select, textarea {
+  width: 20%;
+  padding: 20px;
+  border: 2px solid;
+  border-radius: 1px;
+  box-sizing: border-box;
+  
+
+}
