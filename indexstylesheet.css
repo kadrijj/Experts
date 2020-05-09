@@ -31,3 +31,11 @@ body{
   display: flex;
   justify-content: flex-end;
 }
+
+img { 
+  width:80%;
+  height:auto;
+  display: block;
+  margin: auto;
+  float: initial;
+}
