@@ -1,7 +1,6 @@
 body{
     font-family: 'Jost', sans-serif;  
     line-height: 1.7em;
-    background-color: gray;
   }
 
   h1 {
@@ -45,5 +44,4 @@ img {
   display: flex;
   width: 100%; 
   justify-content: space-evenly;
-  image
 }
