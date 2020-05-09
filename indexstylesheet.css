@@ -11,3 +11,18 @@ body{
     font-size: 40px;
   
   }
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 20px;
+  align-items: center;
+  opacity: 0.8;
+  width: 100%;
+  height: 70px;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 2px 20px;
+  display: flex;
+}
