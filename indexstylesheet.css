@@ -1,6 +1,5 @@
 body{
   font-family: 'Jost', sans-serif;  
-  line-height: 1.7em;
   color: gray;
   }
 
@@ -49,15 +48,28 @@ body{
   justify-content: flex-end;
 }
 
-img { 
-     width: 80%;
-     height: auto;
-     top: 50%;     
-     left: 50%;
 }
-.index-container 
-{
+.box {
+  width: 30%;
+}
+
+.img-div {
+  height: 250px;
+  overflow: hidden;
+}
+
+.box-img {
+  width: 100%;
+}
+
+.box-container {
   display: flex;
-  width: 100%; 
   justify-content: space-evenly;
+}
+.box {
+  width: 80%;
+}
+
+.img-div {
+  height: 250px;
 }
