@@ -66,10 +66,10 @@ body{
   display: flex;
   justify-content: space-evenly;
 }
-.box {
-  width: 80%;
 }
-
-.img-div {
-  height: 250px;
-}
+@media (max-width: 600px) {
+    .box-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
