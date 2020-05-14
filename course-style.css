@@ -97,8 +97,57 @@ h4 {
   justify-content: space-around;
   align-items: center;
   text-align: center;
-  height: 100%;
+  flex: 1;
+}
+
+/* Modal Read Me background */
+.btnreadmore {
+  font-size: 10px;
+  border: none;
+  border-bottom: darkolivegreen 1px solid;
+  outline: 0;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  left: 25%;
+  top: 30%;
+  width: 50%;
+  height: 50%;
+  overflow: auto;
+}
+
+
+/* Modal Read Me Content */
+.readme-content {
+  background: white;
+  margin: 10px auto;
+  padding: 20px;
+  border: 1px solid gray;
   width: 100%;
+}
+
+.readme-content h4, 
+.readme-content p {
+  font-size: smaller;
+}
+
+/* Read Me Close button */
+.close {
+  color: olive;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover, 
+.close:focus,
+.btnreadmore
+ {
+  color: gray;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 #quick {
@@ -157,22 +206,4 @@ footer a:hover {
 
 footer p {
   font-size: 12px;
-}
-.contact {
-  border-radius: 20px;
-  background-color: #0f0e0ea6;
-  padding: 20px;
-  background:url('../course-images/banner.jpg');
-  display: flex;
-  background-position: 20%;
-  
-}
-input[type=text], select, textarea {
-  width: 20%;
-  padding: 20px;
-  border: 2px solid;
-  border-radius: 1px;
-  box-sizing: border-box;
-  
-
 }
