@@ -42,11 +42,15 @@ h3 {
     flex: 33.33%;
     padding: 2px;
   }
+  img 
+  {  width:100%;
+     height:auto
+    }
 
 .container {
-	max-width:80%;
-	width:600px;
-	margin:0 auto;
+	  max-width:80%;
+	  width:600px;
+	  margin:0 auto;
     position: relative;
     background-image: none;
    

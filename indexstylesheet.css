@@ -1,15 +1,24 @@
-body {
+body
+ {
   font-family: 'Jost', sans-serif;  
+  line-height: 1.7em;
   color: gray;
   margin: auto;
 }
 
-.header {
-  position: relative;  
-  }
+.content {
+  width:80%;
+  margin:auto;
 }
+
+.header {
+  position: relative; 
+  }
+
 .header-img {
   width: 100%;
+  position: relative;
+  vertical-align:bottom;
 }
 .header-text {
   position: absolute;
@@ -17,19 +26,25 @@ body {
   left: 50%;
   font-size: 100px;
   transform: translate(-50%, -50%);
-  color: whitesmoke;
+  color: gray;
   font-family: 'Jost', sans-serif; 
 }
 
 h1 {
+  text-align:center;
   font-size: 50px;
+   }
+
+  h2 {
+    text-align:center;
+    font-size: 40px;
+  }
+
+p {
+  font-size: 20px;
   text-align: center;
 }
-h2 {
-  font-size: 40px;
-
-}
-.navbar {
+nav {
   display: flex;
   align-items: center;
   opacity: 0.8;
@@ -37,14 +52,16 @@ h2 {
   height: 70px;
   justify-content: space-around;
   background-color: gray;
+  font-family: 'Jost', sans-serif; 
 }
-.navbar a {
+nav a {
   color: white;
+  text-decoration: none;
   padding: 2px 20px;
   display: flex;
 }
 
-.navbar ul {
+ul {
   list-style-type: none;
   display: flex;
   justify-content: flex-end;
@@ -67,10 +84,38 @@ h2 {
 .box-container {
   display: flex;
   justify-content: space-evenly;
+  flex: column;
+  position: relative;
 }
 
-@media (min-width: 640px) {
+footer {
+  background: gray;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+footer a {
+  color: white;
+  padding: 0 10px;
+  text-align: center;
+}
+
+footer a:hover {
+  color: darkolivegreen;
+}
+
+footer p {
+  font-size: 12px;
+}
+
+
+
+@media (min-width: 640px)and (max-width: 1023px)  {
   .box-container {
     display: flex;
     flex-direction: row;
-  }
+  } }
