@@ -3,25 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/course-style.css">
+    <link rel="stylesheet" href="contact.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
+      crossorigin="anonymous"/>
     <title>Contact Us</title>
 </head>
 <body>
 
 <h1>We are the experts</h1>
-<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In sint ad nemo non quos perferendis totam corporis a consequuntur fugiat, omnis iusto ex, praesentium officiis voluptas cumque unde ut optio!</p>
-
-<h3>Meet the team</h3>
-<img src="" alt="" title="">Expert 1
-<img src="" alt="" title="">Expert 2
-<img src="" alt="" title="">Expert 3
-
-
-
-
-     <h1>Let's talk. Or chat. Or...</h1>
-     <h3>We love to hear your feedback.</h3>
-     <div class="contact">
+<h3>Meet the team:</h3>
+<div class="row">
+    <div class="column">
+      <img src="https://via.placeholder.com/50" alt="Kadri" style="width:100%">
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa nisi incidunt harum magnam quae, corrupti repellat officiis, maxime eaque repellendus minus. Quasi impedit non fugiat vel veritatis dignissimos officiis reiciendis!</p>
+    </div>
+    <div class="column">
+      <img src="https://scontent.fotp3-2.fna.fbcdn.net/v/t1.0-9/p843x403/69242427_10220186530194688_7584014171369373696_n.jpg?_nc_cat=106&_nc_sid=09cbfe&_nc_oc=AQk7LJRjGhUMea1YCQfzaM4xzLYlB2-pa6eFunkaT9SB6aCxZykJ8AGug5TOW7BjPiA&_nc_ht=scontent.fotp3-2.fna&_nc_tp=6&oh=d104db7f6cee54ba726e5eae95bb3e98&oe=5EF25717" alt="Yuuka" title = "Expert2">
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa nisi incidunt harum magnam quae, corrupti repellat officiis, maxime eaque repellendus minus. Quasi impedit non fugiat vel veritatis dignissimos officiis reiciendis!</p>
+    </div>
+    <div class="column">
+      <img src="https://scontent.fotp3-2.fna.fbcdn.net/v/t1.0-9/35766636_2197828660229520_350700958939873280_o.jpg?_nc_cat=106&_nc_sid=174925&_nc_oc=AQnSNoeH9adbgkDF1IMsn3luqzJwNZyzMd7WIg-BacSYWIAPIN7OrbjpDFXPYM33wkg&_nc_ht=scontent.fotp3-2.fna&oh=cf5c8086b73852bb47ee14deeb7212d9&oe=5EEFAF1D" alt="Dimi" title="Expert3">
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa nisi incidunt harum magnam quae, corrupti repellat officiis, maxime eaque repellendus minus. Quasi impedit non fugiat vel veritatis dignissimos officiis reiciendis!</p>
+    </div>
+  </div>
+  <nav><div class= "navbar">
+    <ul> 
+      <li><a href="index.html">Home</a></li>
+      <li><a href="course.html">Learning</a></li>
+      <li><a href="link">Hobbies</a></li>
+      <li><a href="link">Entertainment</a></li>
+      <li><a href="contact.html">About Us</a></li>
+    </ul>
+  </div>
+  </nav> 
+  <hr>
+     
+     <div class="container">  
+        <form id="contact" action="" method="post">
+          <h3>Let's talk. Or chat. Or...</h3>
+          <h4>We love to hear your feedback.</h4>
+          <fieldset>
+            <input placeholder="Your name" type="text" tabindex="1" required >
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Email Address" type="email" tabindex="2" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Web Site starts with http://" type="url" tabindex="4" required>
+          </fieldset>
+          <fieldset>
+            <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+          </fieldset>
+          <fieldset>
+            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+          </fieldset>
+        </form>
+    </div> 
+        
+      </div>
+     <!-- <div class="contact">
      <form action="contact.html" method="post">
         <label for="fname">First Name</label>
         <input id="fname" type="name" placeholder="First Name" required><br>
@@ -114,9 +160,17 @@
           <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
           <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
           <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
-        </div>
-        <p>Copyright &copy; 2020 - <span class ="text-primary">Stay Home </span>Experts</p>
-      </footer>
-
+        </div> -->
 </body>
+<footer>
+    <div class="social">
+      <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+      <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+      <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+    </div>
+    <p>Copyright &copy; 2020 - <span class ="text-primary">Stay Home </span>Experts</p>
+  </footer>
+      
+
 </html>
+
