@@ -532,6 +532,11 @@ footer a:hover {
 footer p {
   font-size: 12px;
 }
+<<<<<<< HEAD
+/* .contact {
+  border-radius: 20px;
+  background-color: #0f0e0ea6;
+=======
 
 /* media queries max-width 640px */
 /* Main Styling */
@@ -806,6 +811,7 @@ h4 {
 }
 
 .container > div {
+>>>>>>> 5b08835eb78c0630048a5d0f4a9c897495806f77
   padding: 20px;
 }
 
@@ -823,6 +829,17 @@ footer {
   background: gray;
   color: white;
   display: flex;
+<<<<<<< HEAD
+  background-position: 20%; */
+  
+/* }
+input[type=text], select, textarea {
+  width: 20%;
+  padding: 20px;
+  border: 2px solid;
+  border-radius: 1px;
+  box-sizing: border-box;
+=======
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -973,11 +990,15 @@ footer p {
   footer {
     padding: 5px;
   }
+>>>>>>> 5b08835eb78c0630048a5d0f4a9c897495806f77
   
   footer a {
     padding: 0 5px;
   }
 
+<<<<<<< HEAD
+} */
+=======
   footer p {
     font-size: 10px;
   }
@@ -1009,3 +1030,4 @@ footer p {
   }
   
 }
+>>>>>>> 5b08835eb78c0630048a5d0f4a9c897495806f77
