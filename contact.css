@@ -29,6 +29,9 @@ h3 {
    margin-left: 21%; 
    margin-bottom: 0.77em;
 }
+hr{
+  margin-top: 5em;
+}
 
 /* Pictures */
 .row {
@@ -42,10 +45,16 @@ h3 {
     flex: 33.33%;
     padding: 2px;
   }
-  img 
-  {  width:100%;
-     height:auto
-    }
+  img {
+    
+    width:  200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+img:hover {
+  filter: grayscale(100%);
+}
 
 .container {
 	  max-width:80%;
