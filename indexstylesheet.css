@@ -49,7 +49,7 @@ h2 {
 
 p {
   width: 80%;
-  text-align: center;
+  margin:auto;
 }
 
 nav {
@@ -96,7 +96,6 @@ ul {
 }
 
 .img-div {
-  height: 250px;
   overflow: hidden;
 }
 
