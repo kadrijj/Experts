@@ -39,7 +39,7 @@ p {
   font-size: 100px;
   transform: translate(-50%, -50%);
   color: gray;
-  font-size: 50;
+  display: flex;
 }
 
 .text-primary {
