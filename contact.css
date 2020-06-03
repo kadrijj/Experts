@@ -3,7 +3,8 @@
 * {
     margin: 0px;  
     padding: 0px;  
-    box-sizing: border-box; } 
+    box-sizing: border-box; 
+  } 
 
 
     html,body {
@@ -39,16 +40,18 @@ hr{
     width: 60%; 
     justify-content: center;
     margin: auto;
+    /* text-align: justify; */
   }
   
 .column {
     flex: 33.33%;
     padding: 2px;
+    
   }
   img {
     
-    width:  200px;
-    height: 200px;
+    width:  275px;
+    height: 275px;
     object-fit: cover;
 }
 
@@ -337,6 +340,12 @@ footer {
     }
     .header-text  {
       font-size: 40px;
+    }
+    .row {
+      justify-content: space-between;
+    }
+    .column {
+      justify-content: space-between;
     }
   
     /* navbar */
