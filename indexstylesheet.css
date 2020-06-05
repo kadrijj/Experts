@@ -202,6 +202,10 @@ footer p {
     flex-direction: column;
   }
 
+  .container > div {
+    padding: 5px;
+  }
+
   .box {
     width: 50%;
   }
