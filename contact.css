@@ -181,6 +181,9 @@ footer {
   footer p {
     font-size: 12px;
   }
+  .text-primary {
+    color: darkolivegreen;
+  }
    /* navbar  */
   
   .navbar {   
@@ -211,7 +214,7 @@ footer {
   }
 
   .navbar a:hover {
-    border-bottom: darkolivegreen 1px solid;
+    border-bottom: darkolivegreen 3px solid;
   }
 
   @media(max-width: 640px) {
