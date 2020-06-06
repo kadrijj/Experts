@@ -40,7 +40,7 @@ hr{
     width: 60%; 
     justify-content: center;
     margin: auto;
-    /* text-align: justify; */
+    text-align: justify; 
   }
   
 .column {
@@ -347,9 +347,9 @@ footer {
     .row {
       justify-content: space-between;
     }
-    .column {
+    /* .column {
       justify-content: space-between;
-    }
+    } */
   
     /* navbar */
     .navbar {
