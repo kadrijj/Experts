@@ -240,7 +240,7 @@ footer {
     }
 
     html,body {
-      line-height: 1.2em;
+      line-height: 1.5em;
     }
     h1 {
       font-size: 30px;
@@ -271,7 +271,7 @@ footer {
     /* navbar */
     .navbar {
       padding: 2px;
-      height: 20px;
+      height: 35px;
     }
   
     .navbar a {
@@ -279,7 +279,7 @@ footer {
     }
   
     .navbar ul {
-      font-size: 10px;
+      font-size: 13px;
     }
   
     /* Footer */
@@ -359,15 +359,16 @@ footer {
       display: flex;
       flex-wrap: wrap;
       
+      
     }
-    /* .column {
-      justify-content: space-between;
-    } */
-  
+     .column {
+      width: 100%;
+   
+     }  
     /* navbar */
     .navbar {
       padding: 5px;
-      height: 30px;
+      height: 50px;
     }
   
     .navbar a {
@@ -375,7 +376,7 @@ footer {
       }
   
     .navbar ul {
-      font-size: 17px;
+      font-size: 14px;
     }
   
     /* Footer */
@@ -390,27 +391,4 @@ footer {
     footer p {
       font-size: 10px;
     }
-  
-    /* course-specific media queries */
-    /* .container {
-    flex-direction: column;
-    }
-    
-    .course, .time-container  {
-      justify-content: center;
-    }
-  
-    .course h3 {
-      text-align: center;
-    }
-   
-    .container > div {
-      padding: 5px;
-    }
-    
-    .readme-content h4, 
-    .readme-content p {
-      font-size: 12px;
-    } */
-    
   }
