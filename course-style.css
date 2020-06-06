@@ -74,6 +74,12 @@ p {
   justify-content: flex-end;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 /* Course Header */
 /* .learning {
   background: url('../course-images/banner.jpg') no-repeat center center/cover;
