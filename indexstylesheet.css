@@ -171,10 +171,14 @@ footer p {
     font-size: 15px;
   }
   p {
-    font-size: 12px;
+    font-size: 8px;
   }
   .header-text {
     font-size: 30px;
+  }
+  .box {
+    width: 30%;
+    align-items: center;
   }
 
   nav {
@@ -200,14 +204,16 @@ footer p {
 
   .box-container {
     flex-direction: column;
+    justify-content: center;
   }
 
-  .container > div {
+  .box-container > div {
     padding: 5px;
   }
 
   .box {
-    width: 50%;
+    width: 100%;
+    box-shadow: 0;
   }
 
   .box-container > div {

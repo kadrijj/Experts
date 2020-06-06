@@ -1,5 +1,5 @@
 // Get the header
-const nav = document.getElementsByTagName(nav);
+const nav = document.getElementsByTagName("nav");
 
 // Get the offset position of the navbar
 const sticky = nav.offsetTop;
