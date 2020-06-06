@@ -286,7 +286,7 @@ footer p {
   /* navbar */
   .navbar {
     padding: 2px;
-    height: 20px;
+    height: 35px;
   }
 
   .navbar a {
@@ -294,7 +294,7 @@ footer p {
   }
 
   .navbar ul {
-    font-size: 10px;
+    font-size: 13px;
   }
 
   /* Footer */
@@ -373,7 +373,7 @@ footer p {
   /* navbar */
   .navbar {
     padding: 5px;
-    height: 30px;
+    height: 50px;
   }
 
   .navbar a {
@@ -381,7 +381,7 @@ footer p {
     }
 
   .navbar ul {
-    font-size: 17px;
+    font-size: 14px;
   }
 
   /* Footer */
