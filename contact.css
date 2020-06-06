@@ -45,7 +45,8 @@ hr{
   
 .column {
     flex: 33.33%;
-    padding: 2px;
+    padding: 3.7em;
+    text-align: justify;
     
   }
   img {
@@ -218,6 +219,9 @@ footer {
   }
 
   @media(max-width: 640px) {
+    * {
+      padding: 10px;
+    }
     .row {
       display: flex;
       flex-direction: column;
@@ -226,6 +230,8 @@ footer {
 
     .column {
       padding-bottom: 20px;
+      text-align: justify;
+      padding: 1.4em;
 
     }
 
@@ -248,7 +254,7 @@ footer {
       line-height: 100%;
     }
     p {
-      font-size: 12px;
+      font-size: 1em;
     }
     .header-text {
       font-size: 30px;
