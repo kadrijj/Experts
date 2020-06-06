@@ -180,16 +180,18 @@ footer p {
     width: 30%;
     align-items: center;
   }
-
-  nav {
+  .nav {
     padding: 2px;
-    height: 20px;
+    height: 35px;
   }
 
   nav a {
     padding: 0px 10px;
   }
 
+  nav ul {
+    font-size: 13px;
+  }
   footer {
     padding: 5px;
   }
@@ -243,14 +245,15 @@ footer p {
     .header-text {
       font-size: 40px;
     }
-
-    .nav {
+    nav {
       padding: 5px;
-      height: 30px;
+      height: 50px;
     }
-
-    .nav a {
+    nav a {
       padding: 2px 20px;
+    }
+    nav ul {
+      font-size: 14px;
     }
 
     footer {
